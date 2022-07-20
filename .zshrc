@@ -138,12 +138,6 @@ alias fsshared="sshfs -o allow_other,IdentityFile=~/.ssh/id_rsa dvaitmonas@192.1
 # config management
 alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 config config status.showUntrackedFiles no
-alias confst="config status"
-alias confdiff="config diff"
-alias confdiffs="config diff --staged"
-alias confc="config commit -m"
-alias confp="config push"
-alias confa="config add"
 
 # neovim
 alias n="nvim"
